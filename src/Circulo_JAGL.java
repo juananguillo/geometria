@@ -7,6 +7,13 @@ public class Circulo_JAGL extends FiguraGeometrica_JAGL {
 	public Circulo_JAGL(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		
+		if (r<0) {
+			r=r*-1;
+			
+			
+		}
+		
 	}
 
 	@Override
